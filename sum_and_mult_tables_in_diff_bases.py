@@ -15,8 +15,6 @@ def convert_number(number: int, system_to: int) -> str:
         return 'Error'
 
     latin_letters = [chr(ord('A') + c) for c in range(0, 26)]
-    # small_greek_letters = [chr(code) for code in range(945, 970)]
-
     result = ''
     while number:
         quotient, remainder = divmod(number, system_to)
