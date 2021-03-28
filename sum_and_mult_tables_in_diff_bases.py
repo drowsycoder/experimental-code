@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def convert_number(number: int, system_to: int) -> str:
     """Converts a number into different number system, returns a string."""
     if number == 0:
